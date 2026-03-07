@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color:black;
+    background: white;
+
+}
+.header {
+    background-image: url(images/fon_main.jpg);
+    width: 100%;
+    height: 1024px;
+}
+
+.navigation {
+    display: flex;
+    padding: 20px;
+}
+
+.vkladki_main {
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+.nav_main {
+    display: block;
+    text-decoration: none;
+
+}
+
+.logo {
+    margin: 30px;
+    margin-left: 90px;
+    margin-right: 150px;
+}
+
+.main-header {
+    width: 100%;
+    height: 1024px;
+    background: #D53005;
+}
+
+.main-main {
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+    width: 100%;
+    height: 1024px;
+}
+
