@@ -120,3 +120,151 @@ body {
     width: 340px;
     height: 80px;
 }
+
+.main-main {
+    width: 100%;
+    height: 1024px;
+}
+
+.main-main-header {
+    width: 100%;
+    height: 100px;
+    padding-left: 120px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.main-main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84%;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 30px;
+}
+
+.main-footer {
+    background: #D53005;
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer-header {
+    width: 100%;
+    height: 80px;
+    padding-left: 120px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.main-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 120px;
+    margin-left: 30px;
+}
+
+.main-footer-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    width: 240px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+
+.main-footer-button1 {
+    color: white;
+    background-color: #000000;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.main-footer-button2 {
+    color: #000000;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.list-mp3player {
+    list-style: none;
+    text-align: center;
+}
+
+
+.main-footer-text-opisanie{
+    width: 450px;
+    text-align: center;
+}
+
+.header-list-mp3player {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.container-list-mp3player {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+.footer-list-mp3player 
+{
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+
+.footer {
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.footer-list-1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 300px;
+}
+
+.footer-ssilka {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 150px;
+}
+
+
+
