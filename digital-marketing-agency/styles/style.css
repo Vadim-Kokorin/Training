@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 156px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4694dc;
+    min-height: 100px;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.header-title {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+
+.header-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    line-height: 24px;
+    max-width: 437px;
+
+}
+
+.header-button {
+    width: 194px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+/* Services */
+
+/* media */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .header-title {
+        font-size: 26px;
+    }
+}
