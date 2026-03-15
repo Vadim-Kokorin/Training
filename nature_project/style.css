@@ -11,13 +11,16 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Kulim park" sans-serif;
+    font-family: Kulim Park;
     font-size: 20px;
     font-weight: 400;
     color:#3D3D3D;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
 .container {
+    height: 800px;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
@@ -178,39 +181,40 @@ html {
 .mission {
     margin-top: 128px;
     max-height: 800px;
+    margin-bottom: 141px;
 }
 
 .top-mission-container {
-    margin-bottom: 72px;
     display: flex;
     gap: 107px;    
-    max-height: 450px;
+    max-height: 500px;
 }
 
 .text-mission-container {
     width: 800px;
-
+    display: flex;
+    flex-direction: column;
 }
-.text-mission {
 
-    margin-bottom: 38px;
+.text-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
 }
 
 .first-text-mission {
     font-size: 36px;
-    margin-bottom: 38px;
 }
 
 .last-text-mission {
     font-size: 24px;
-    margin-bottom: 56px;
 }
 
 .button-help-container
 {
-    max-height: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .button-help {
@@ -229,20 +233,40 @@ html {
     transition: 0.2s;
 }
 
-.flex-container {
+.flex-container-mission {
     display: flex;
     flex-direction: column;
 }
 
 .bottom-mission-container {
+    margin-top: 72px;
+    height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 50px 50px;
-}
-.mission-info {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 103px 103px;
+    text-align: center;
+    grid-row-gap: 56px;
 }
 
+
+
+.mission-info-number {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+
+.mission-info-text {
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 300;
+    font-style: Light;
+}
 
 .image-lion {
     height: 470px;
@@ -251,27 +275,116 @@ html {
 }
 
 
-
-
-/* .image-header-container-header h1 {
-    font-size: 100px;
-    font-weight: 600;
-    width: 1047px;
-    height: 228px;
-    color: black;
+.grid-container-question {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 56px;
 }
 
-
-.image-header-container-header p {
-    font-size: 20px;
-    font-weight: 275;
-    width: 100%;
-    height: 246px;
-    margin: 0;
-    text-align: right;
-
-}
-
-.fon-image-header {
+.image-delfin {
     border-radius: 50px;
-} */
+}
+
+.image-giraffe {
+    border-radius: 50px;
+}
+
+.quest {
+}
+
+.image-quest-container {
+    width: 100%;
+}
+.image-quest-top-container {
+}
+
+.image-quest-bottom-container {
+    margin-top: 93px;
+    text-align: right;
+}
+
+.text-quest-container {
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.description-quest-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 33px;
+}
+
+.quest-info-header {
+    text-align: center;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+}
+
+.quest-info-description {
+    width: 100%;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.list-quest-container {
+    margin-top: 45px;
+    display: flex;
+}
+.list-text-quest {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list-text-quest hr {
+    width: 105%;
+    height: 1px;
+}
+.text-list-quest-container {
+    font-size: 24px;
+}
+
+.strelka-list-quest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-strelki {
+    height: 90%
+}
+
+.last-page {
+}
+
+
+.text-last-page {
+    background-image: url('images/elefant.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 639px;
+    border-radius: 50px;
+}
+
+.header-last-page {
+}
+.donat {
+}
+.button-last-page {
+}
