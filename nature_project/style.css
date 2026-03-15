@@ -289,15 +289,10 @@ html {
     border-radius: 50px;
 }
 
-.quest {
-}
 
 .image-quest-container {
     width: 100%;
 }
-.image-quest-top-container {
-}
-
 .image-quest-bottom-container {
     margin-top: 93px;
     text-align: right;
@@ -367,9 +362,6 @@ html {
     height: 90%
 }
 
-.last-page {
-}
-
 
 .text-last-page {
     background-image: url('images/elefant.png');
@@ -380,11 +372,179 @@ html {
     width: 100%;
     height: 639px;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-last-page::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+    border-radius: 50px;
+    z-index: 1;
 }
 
 .header-last-page {
+    width: 800px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    z-index: 2;
 }
+
 .donat {
+    width: 891px;
+    text-align: center;
+    font-weight: 30;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    z-index: 2;
+
 }
 .button-last-page {
+    z-index: 2;
+    color:white;
+    background-color: rgba(255, 255, 255, 0); 
+    border: 1px solid white; 
+    outline: none;
+    border-radius: 50px;
+    height: 35px;
+    width: 402px;
+}
+
+.button-last-page:hover {
+    background-color: #ffffffc5;
+    border: 1px solid rgb(0, 0, 0); 
+    color: #171717;
+    transition: 0.2s;
+}
+
+
+
+#footer hr {
+    border: 1px solid #3E3E3E;
+    margin-bottom: 28px;
+}
+
+
+.footer_info_page .container {
+    height: 450px;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+}
+
+.footer_info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.info p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #171717;
+}
+
+
+.info ul, a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-container-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.form-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+.form-subscribe input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #979797
+}
+
+.form-subscribe label {
+    padding-top: 5px;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #848484;
+}
+
+.text-soglasie {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.copyright_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 150px;
+}
+.copyright_wrapper p {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.bottom_logo img {
+    height: 140px;
+    width: 140px;
+}
+
+.social-buttons button {
+    padding: 8px 21px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50px;
+    background-color: white;
+    color: #979797;
+}
+
+.social-buttons button:hover {
+    color: white;
+    background-color: #4d4d4d;
+    border: 1px solid #000000;
+    transition: 0.3s;
 }
