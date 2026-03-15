@@ -18,7 +18,7 @@ html {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
@@ -71,7 +71,6 @@ html {
 .button-header {
     width: 216px;
     height: 41px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
     border: 1px solid #666666;
@@ -103,34 +102,61 @@ html {
 }
 
 .image-header-container {
-    position: absolute;
-    bottom: 50px;     
-    left: 50px;        
+    position: absolute;     
     color: white;
-    max-width: 600px; 
+    width: 100%;
+    height: 100%;
+    padding: 35px;
 }
 
-.image-header-container h1 {
-    font-size: 64px;
+.top h1 {
+    font-size: 100px;
     font-weight: 600;
     margin-bottom: 20px;
     color: white;
+    line-height: 100%;
 }
 
-.image-header-container p {
+.top p {
     font-size: 20px;
     margin-bottom: 30px;
     color: white;
+    text-align: end;
 }
 
-.btb-help {
-    background: rgba(255, 255, 255, 0.2);
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 65%;
+}
+
+.btn-help-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 162px;
     border: 1px solid white;
-    padding: 12px 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     color: white;
-    font-size: 18px;
+}
+
+.btn-help {
+    width: 140px;
+    height: 140px;
+    background:white;
+    border-radius: 100%;
+    font-size: 22px;
     cursor: pointer;
+    border: 1px solid white;
+    color: #BF632F;
+}
+
+.btn-help:hover {
+    background: #b76b00;
+    color: white;
+    transition: 0.2s;
 }
 
 .image-header::after {
@@ -148,6 +174,85 @@ html {
 .image-header-container {
     z-index: 2;
 }
+
+.mission {
+    margin-top: 128px;
+    max-height: 800px;
+}
+
+.top-mission-container {
+    margin-bottom: 72px;
+    display: flex;
+    gap: 107px;    
+    max-height: 450px;
+}
+
+.text-mission-container {
+    width: 800px;
+
+}
+.text-mission {
+
+    margin-bottom: 38px;
+}
+
+.first-text-mission {
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.last-text-mission {
+    font-size: 24px;
+    margin-bottom: 56px;
+}
+
+.button-help-container
+{
+    max-height: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.button-help {
+    border-radius: 50px;
+    width: 100%;
+    height: 66px;
+    background: #BC5E28;
+    color: #171717;
+    border: 1px solid #BC5E28;
+    font-size: 30px;
+}
+
+.button-help:hover {
+    background: #86451c;
+    color: white;
+    transition: 0.2s;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-mission-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+.mission-info {
+}
+
+
+.image-lion {
+    height: 470px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+
+
+
 /* .image-header-container-header h1 {
     font-size: 100px;
     font-weight: 600;
