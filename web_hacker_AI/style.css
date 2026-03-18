@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+    color: white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0px 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 80px;
+    background: var(--Color-Scheme-2-Background, #001E3D);
+    height: 2000px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 64px;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.nav-vkladki {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+
+}
+.link-item {
+
+}
+.link-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.down_images {
+}
+.button-navigation {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.button-login {
+    background-color: #001E3D;
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+    padding: 7px 15px;
+}
+
+.button-login:hover {
+    background-color: #d9d9d977;
+    border: 1px solid #FFFFFF66;
+    border-radius: 12px;
+    padding: 7px 15px;
+    color: black
+}
+
+.button-signup {
+    background-color: #0066CC;
+    border: 1px solid #0066CC;
+    border-radius: 12px;
+    padding: 7px 15px;
+}
+
+.button-signup:hover {
+    background-color: #6db3f8;
+    border: 1px solid #005bb5;
+    border-radius: 12px;
+    padding: 7px 15px;
+    color:black;
+}
+.header-container {
+    margin: 32px 64px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.left-head-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head-span {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.head-container-list {
+}
+
+.logo-list-head {
+    display: flex;
+    gap: 10px;
+
+}
+
+.icon {
+}
+.name-head {
+    font-weight: 600;
+    font-style: Semi Bold;
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding-bottom: 5px;
+}
+
+.head-text {
+}
+.middle-head-container {
+}
+.right-head-container {
+}
+.container-head-read {
+}
+.vkladka {
+    
+}
+.hands {
+}
+.head-header {
+}
+.desc-header {
+}
+.link-header {
+}
+.more {
+}
+.main-header {
+}
+.head-main-header {
+}
+.top-head {
+}
+.bottom-head {
+}
+.foot-main-header {
+}
