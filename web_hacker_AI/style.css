@@ -74,8 +74,6 @@ section {
 .button-login:hover {
     background-color: #d9d9d977;
     border: 1px solid #FFFFFF66;
-    border-radius: 12px;
-    padding: 7px 15px;
     color: black
 }
 
@@ -89,8 +87,6 @@ section {
 .button-signup:hover {
     background-color: #6db3f8;
     border: 1px solid #005bb5;
-    border-radius: 12px;
-    padding: 7px 15px;
     color:black;
 }
 
@@ -225,9 +221,6 @@ section {
 
 .btn-more:hover {
     background-color: #d9d9d977;
-    border: 1px solid #FFFFFF66;
-    border-radius: 12px;
-    padding: 7px 15px;
     color: black
 }
 
@@ -241,9 +234,6 @@ section {
 
 .start:hover {
     background-color: #6db3f8;
-    border: 1px solid #005bb5;
-    border-radius: 12px;
-    padding: 7px 15px;
     color:black;
 }
 
@@ -265,6 +255,7 @@ section {
     font-weight: 600;
     display: flex;
     gap: 24px;
+    font-size: 24px;
 }
 
 .section-head-main-container {
@@ -273,25 +264,60 @@ section {
     max-width: 100%;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .section-head-left-container {
     width: 600px;
     height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
+
 .name-quality {
+    font-weight: 600;
 }
+
 .head-section-main {
+    font-family: Unbounded;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 62px;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-transform: uppercase;
 }
+
 .desc-section-main {
+    font-weight: 300;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
 }
-.section-buttons {
-}
+
+
 .section-main-button {
+    background: var(--Color-Scheme-1-Background, #000A07);
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+    padding: 7px 15px;
+    margin-right: 10px;
 }
+
+.section-main-button:hover {
+    background-color: #d9d9d9d3;
+    color: black;
+}
+
 .link-section-main {
+    text-decoration: none;
 }
 .section-head-right-container img {
     border-radius: 20px;
     object-fit: cover;
 
 }
+
