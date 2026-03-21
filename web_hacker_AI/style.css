@@ -254,6 +254,44 @@ section {
 
 .template-section1 {
     height: 824px;
-    width: 1280px;
+    width: 100%;
     background: var(--Color-Scheme-1-Background, #000A07);
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.section-header {
+    font-weight: 600;
+    display: flex;
+    gap: 24px;
+}
+
+.section-head-main-container {
+    display: flex;
+    height: 600px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-head-left-container {
+    width: 600px;
+    height: 435px;
+}
+.name-quality {
+}
+.head-section-main {
+}
+.desc-section-main {
+}
+.section-buttons {
+}
+.section-main-button {
+}
+.link-section-main {
+}
+.section-head-right-container img {
+    border-radius: 20px;
+    object-fit: cover;
+
 }
