@@ -30,11 +30,10 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 64px;
-    position: relative;
     width: 100%;
     text-decoration: none;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -46,19 +45,20 @@ section {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
-
+    position: relative;
+    right: 80px;
 }
-.link-item {
 
-}
 .link-item a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
 }
 .down_images {
+    padding-left: 5px;
 }
+
 .button-navigation {
     display: flex;
     gap: 16px;
@@ -93,72 +93,167 @@ section {
     padding: 7px 15px;
     color:black;
 }
+
+
 .header-container {
-    margin: 32px 64px;
     display: flex;
-    gap: 32px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 376px;
+    height: 332px;
+}
+
+.link_text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.list {
+    display: flex;
+    gap: 15px;
+}
+.hide {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.hide span {
+    font-weight: 300;
+}
+
+.right-head-container {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
 }
-.left-head-container {
+
+.cont-image-head{
     display: flex;
     flex-direction: column;
-
-}
-
-.head-span {
-    display: block;
-    margin-bottom: 16px;
-}
-
-.head-container-list {
-}
-
-.logo-list-head {
-    display: flex;
-    gap: 10px;
-
-}
-
-.icon {
-}
-.name-head {
-    font-weight: 600;
-    font-style: Semi Bold;
-    line-height: 150%;
-    letter-spacing: 0%;
-    padding-bottom: 5px;
-}
-
-.head-text {
-}
-.middle-head-container {
-}
-.right-head-container {
-}
-.container-head-read {
+    gap: 15px;
 }
 .vkladka {
-    
+    display: flex;
+    gap: 24px
 }
-.hands {
+
+.image-head-cont img{
+    border-radius: 20px;
+    object-fit: cover;
 }
-.head-header {
+
+.text-head-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 0px;
 }
+
+
 .desc-header {
+    width: 290px;
+    font-weight: 300;
+    line-height: 150%;
 }
-.link-header {
+
+.more a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 150%;
 }
-.more {
-}
+
 .main-header {
+    margin: 112px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
 }
+
 .head-main-header {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
 }
 .top-head {
+    width: 1000px;
+    height: 100%;
+    font-family: Unbounded;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: clamp(48px, 5vw, 78px); 
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+
 }
 .bottom-head {
+    width: 1000px;
+    font-weight: 300;      
+    font-size: 20px;         
+    line-height: 1.5;        
+    letter-spacing: 0;      
+    text-align: center;
 }
-.foot-main-header {
+
+
+.btn-more {
+    background-color: #001E3D;
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+    padding: 7px 15px;
+}
+
+.btn-more:hover {
+    background-color: #d9d9d977;
+    border: 1px solid #FFFFFF66;
+    border-radius: 12px;
+    padding: 7px 15px;
+    color: black
+}
+
+.start {
+    background-color: #0066CC;
+    border: 1px solid #0066CC;
+    border-radius: 12px;
+    padding: 7px 15px;
+    margin-right: 10px;
+}
+
+.start:hover {
+    background-color: #6db3f8;
+    border: 1px solid #005bb5;
+    border-radius: 12px;
+    padding: 7px 15px;
+    color:black;
+}
+
+.foot-main-header img {
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.template-section1 {
+    height: 824px;
+    width: 1280px;
+    background: var(--Color-Scheme-1-Background, #000A07);
 }
